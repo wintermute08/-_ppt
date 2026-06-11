@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <g id="bg">
+    <rect width="1280" height="720" fill="#F5F7FA" />
+  </g>
+
+  <g id="header">
+    <path fill="#E63946" d="M82.50,50 H82.50 A2.50,2.50 0 0 1 85,52.50 V107.50 A2.50,2.50 0 0 1 82.50,110 H82.50 A2.50,2.50 0 0 1 80,107.50 V52.50 A2.50,2.50 0 0 1 82.50,50 Z" />
+    <text x="104" y="84" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="30" font-weight="bold" fill="#1E3A5F">80% 정확도의 위험 식별은 예방 자원 배분의 근거가 된다</text>
+    <text x="104" y="110" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="14" font-weight="bold" fill="#5C6470" letter-spacing="1">05 기대효과 · 활용방안</text>
+  </g>
+
+  <g id="label-effect">
+    <path fill="#1E3A5F" d="M97,146 H223 A17,17 0 0 1 240,163 V163 A17,17 0 0 1 223,180 H97 A17,17 0 0 1 80,163 V163 A17,17 0 0 1 97,146 Z" />
+    <text x="160" y="169" text-anchor="middle" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF">기대효과</text>
+  </g>
+
+  <g id="effect-1">
+    <path fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1" d="M94,196 H426 A14,14 0 0 1 440,210 V362 A14,14 0 0 1 426,376 H94 A14,14 0 0 1 80,362 V210 A14,14 0 0 1 94,196 Z" />
+    <path fill="#1E3A5F" fill-opacity="0.08" d="M121,222 H147 A13,13 0 0 1 160,235 V261 A13,13 0 0 1 147,274 H121 A13,13 0 0 1 108,261 V235 A13,13 0 0 1 121,222 Z" />
+    
+  <g transform="translate(116.0, 230.0) scale(0.140625)" fill="#1E3A5F">
+    <path d="M176,128a48,48,0,1,1-48-48A48,48,0,0,1,176,128Z" opacity="0.2" />
+    <path d="M221.87,83.16A104.1,104.1,0,1,1,195.67,49l22.67-22.68a8,8,0,0,1,11.32,11.32l-96,96a8,8,0,0,1-11.32-11.32l27.72-27.72a40,40,0,1,0,17.87,31.09,8,8,0,1,1,16-.9,56,56,0,1,1-22.38-41.65L184.3,60.39a87.88,87.88,0,1,0,23.13,29.67,8,8,0,0,1,14.44-6.9Z" />
+  </g>
+    <text x="108" y="312" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="18" font-weight="bold" fill="#2B2D33">고위험군 사전 식별</text>
+    <text font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" fill="#5C6470" font-size="14" x="108" y="338">정확도 80.18% 모델로 개입이 필요한</text><text font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" fill="#5C6470" font-size="14" x="108" y="360">집단을 데이터로 먼저 찾는다</text></g>
+
+  <g id="effect-2">
+    <path fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1" d="M474,196 H806 A14,14 0 0 1 820,210 V362 A14,14 0 0 1 806,376 H474 A14,14 0 0 1 460,362 V210 A14,14 0 0 1 474,196 Z" />
+    <path fill="#1E3A5F" fill-opacity="0.08" d="M501,222 H527 A13,13 0 0 1 540,235 V261 A13,13 0 0 1 527,274 H501 A13,13 0 0 1 488,261 V235 A13,13 0 0 1 501,222 Z" />
+    
+  <g transform="translate(496.0, 230.0) scale(0.140625)" fill="#1E3A5F">
+    <path d="M136,108A52,52,0,1,1,84,56,52,52,0,0,1,136,108Z" opacity="0.2" />
+    <path d="M117.25,157.92a60,60,0,1,0-66.5,0A95.83,95.83,0,0,0,3.53,195.63a8,8,0,1,0,13.4,8.74,80,80,0,0,1,134.14,0,8,8,0,0,0,13.4-8.74A95.83,95.83,0,0,0,117.25,157.92ZM40,108a44,44,0,1,1,44,44A44.05,44.05,0,0,1,40,108Zm210.14,98.7a8,8,0,0,1-11.07-2.33A79.83,79.83,0,0,0,172,168a8,8,0,0,1,0-16,44,44,0,1,0-16.34-84.87,8,8,0,1,1-5.94-14.85,60,60,0,0,1,55.53,105.64,95.83,95.83,0,0,1,47.22,37.71A8,8,0,0,1,250.14,206.7Z" />
+  </g>
+    <text x="488" y="312" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="18" font-weight="bold" fill="#2B2D33">타게팅 효율 극대화</text>
+    <text font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" fill="#5C6470" font-size="14" x="488" y="338">중요도 67%인 연령·성별 기준으로</text><text font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" fill="#5C6470" font-size="14" x="488" y="360">고연령 남성 집중 개입 설계</text></g>
+
+  <g id="effect-3">
+    <path fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1" d="M854,196 H1186 A14,14 0 0 1 1200,210 V362 A14,14 0 0 1 1186,376 H854 A14,14 0 0 1 840,362 V210 A14,14 0 0 1 854,196 Z" />
+    <path fill="#1E3A5F" fill-opacity="0.08" d="M881,222 H907 A13,13 0 0 1 920,235 V261 A13,13 0 0 1 907,274 H881 A13,13 0 0 1 868,261 V235 A13,13 0 0 1 881,222 Z" />
+    
+  <g transform="translate(876.0, 230.0) scale(0.140625)" fill="#1E3A5F">
+    <path d="M224,128a96,96,0,1,1-96-96A96,96,0,0,1,224,128Z" opacity="0.2" />
+    <path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24ZM101.63,168h52.74C149,186.34,140,202.87,128,215.89,116,202.87,107,186.34,101.63,168ZM98,152a145.72,145.72,0,0,1,0-48h60a145.72,145.72,0,0,1,0,48ZM40,128a87.61,87.61,0,0,1,3.33-24H81.79a161.79,161.79,0,0,0,0,48H43.33A87.61,87.61,0,0,1,40,128ZM154.37,88H101.63C107,69.66,116,53.13,128,40.11,140,53.13,149,69.66,154.37,88Zm19.84,16h38.46a88.15,88.15,0,0,1,0,48H174.21a161.79,161.79,0,0,0,0-48Zm32.16-16H170.94a142.39,142.39,0,0,0-20.26-45A88.37,88.37,0,0,1,206.37,88ZM105.32,43A142.39,142.39,0,0,0,85.06,88H49.63A88.37,88.37,0,0,1,105.32,43ZM49.63,168H85.06a142.39,142.39,0,0,0,20.26,45A88.37,88.37,0,0,1,49.63,168Zm101.05,45a142.39,142.39,0,0,0,20.26-45h35.43A88.37,88.37,0,0,1,150.68,213Z" />
+  </g>
+    <text x="868" y="312" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="18" font-weight="bold" fill="#2B2D33">국가군별 맞춤 정책</text>
+    <text font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" fill="#5C6470" font-size="14" x="868" y="338">3개 위험 군집 구분으로 국가 특성에</text><text font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" fill="#5C6470" font-size="14" x="868" y="360">맞는 차등 정책 설계 가능</text></g>
+
+  <g id="label-usage">
+    <path fill="#E63946" d="M97,404 H223 A17,17 0 0 1 240,421 V421 A17,17 0 0 1 223,438 H97 A17,17 0 0 1 80,421 V421 A17,17 0 0 1 97,404 Z" />
+    <text x="160" y="427" text-anchor="middle" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF">활용방안</text>
+  </g>
+
+  <g id="usage-1">
+    <path fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1" d="M94,454 H426 A14,14 0 0 1 440,468 V620 A14,14 0 0 1 426,634 H94 A14,14 0 0 1 80,620 V468 A14,14 0 0 1 94,454 Z" />
+    <path fill="#E63946" fill-opacity="0.08" d="M121,480 H147 A13,13 0 0 1 160,493 V519 A13,13 0 0 1 147,532 H121 A13,13 0 0 1 108,519 V493 A13,13 0 0 1 121,480 Z" />
+    
+  <g transform="translate(116.0, 488.0) scale(0.140625)" fill="#E63946">
+    <path d="M96,188a28,28,0,1,1-28-28A28,28,0,0,1,96,188Z" opacity="0.2" />
+    <path d="M68,152a36,36,0,1,0,36,36A36,36,0,0,0,68,152Zm0,56a20,20,0,1,1,20-20A20,20,0,0,1,68,208ZM34.34,106.34,48.69,92,34.34,77.66A8,8,0,0,1,45.66,66.34L60,80.69,74.34,66.34A8,8,0,0,1,85.66,77.66L71.31,92l14.35,14.34a8,8,0,0,1-11.32,11.32L60,103.31,45.66,117.66a8,8,0,0,1-11.32-11.32Zm187.32,96a8,8,0,0,1-11.32,11.32L196,199.31l-14.34,14.35a8,8,0,0,1-11.32-11.32L184.69,188l-14.35-14.34a8,8,0,0,1,11.32-11.32L196,176.69l14.34-14.35a8,8,0,0,1,11.32,11.32L207.31,188Zm-45.19-89.51c-6.18,22.33-25.32,41.63-46.53,46.93a8.13,8.13,0,0,1-2,.24,8,8,0,0,1-1.93-15.76c15.63-3.91,30.35-18.91,35-35.68,3.19-11.5,3.22-29-14.71-46.9L144,59.31V80a8,8,0,0,1-16,0V40a8,8,0,0,1,8-8h40a8,8,0,0,1,0,16H155.31l2.35,2.34C175.9,68.59,182.58,90.78,176.47,112.83Z" />
+  </g>
+    <text x="108" y="570" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="18" font-weight="bold" fill="#2B2D33">정책 우선순위 지표</text>
+    <text font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" fill="#5C6470" font-size="14" x="108" y="596">국가·지자체 자살예방 계획의</text><text font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" fill="#5C6470" font-size="14" x="108" y="618">근거 기반 우선순위 수립</text></g>
+
+  <g id="usage-2">
+    <path fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1" d="M474,454 H806 A14,14 0 0 1 820,468 V620 A14,14 0 0 1 806,634 H474 A14,14 0 0 1 460,620 V468 A14,14 0 0 1 474,454 Z" />
+    <path fill="#E63946" fill-opacity="0.08" d="M501,480 H527 A13,13 0 0 1 540,493 V519 A13,13 0 0 1 527,532 H501 A13,13 0 0 1 488,519 V493 A13,13 0 0 1 501,480 Z" />
+    
+  <g transform="translate(496.0, 488.0) scale(0.140625)" fill="#E63946">
+    <path d="M208,40V208H152V40Z" opacity="0.2" />
+    <path d="M224,200h-8V40a8,8,0,0,0-8-8H152a8,8,0,0,0-8,8V80H96a8,8,0,0,0-8,8v40H48a8,8,0,0,0-8,8v64H32a8,8,0,0,0,0,16H224a8,8,0,0,0,0-16ZM160,48h40V200H160ZM104,96h40V200H104ZM56,144H88v56H56Z" />
+  </g>
+    <text x="488" y="570" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="18" font-weight="bold" fill="#2B2D33">예산 배분 시뮬레이션</text>
+    <text font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" fill="#5C6470" font-size="14" x="488" y="596">고위험 군집 국가·집단 우선의</text><text font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" fill="#5C6470" font-size="14" x="488" y="618">보건 예산 배분 검증</text></g>
+
+  <g id="usage-3">
+    <path fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1" d="M854,454 H1186 A14,14 0 0 1 1200,468 V620 A14,14 0 0 1 1186,634 H854 A14,14 0 0 1 840,620 V468 A14,14 0 0 1 854,454 Z" />
+    <path fill="#E63946" fill-opacity="0.08" d="M881,480 H907 A13,13 0 0 1 920,493 V519 A13,13 0 0 1 907,532 H881 A13,13 0 0 1 868,519 V493 A13,13 0 0 1 881,480 Z" />
+    
+  <g transform="translate(876.0, 488.0) scale(0.140625)" fill="#E63946">
+    <path d="M232,94c0,66-104,122-104,122S24,160,24,94A54,54,0,0,1,78,40c22.59,0,41.94,12.31,50,32,8.06-19.69,27.41-32,50-32A54,54,0,0,1,232,94Z" opacity="0.2" />
+    <path d="M72,136H32a8,8,0,0,1,0-16H67.72L81.34,99.56a8,8,0,0,1,13.32,0l25.34,38,9.34-14A8,8,0,0,1,136,120h24a8,8,0,0,1,0,16H140.28l-13.62,20.44a8,8,0,0,1-13.32,0L88,118.42l-9.34,14A8,8,0,0,1,72,136ZM178,32c-20.65,0-38.73,8.88-50,23.89C116.73,40.88,98.65,32,78,32A62.07,62.07,0,0,0,16,94c0,.75,0,1.5,0,2.25a8,8,0,1,0,16-.5c0-.58,0-1.17,0-1.75A46.06,46.06,0,0,1,78,48c19.45,0,35.78,10.36,42.6,27a8,8,0,0,0,14.8,0c6.82-16.67,23.15-27,42.6-27a46.06,46.06,0,0,1,46,46c0,53.61-77.76,102.15-96,112.8-10.83-6.31-42.63-26-66.68-52.21a8,8,0,1,0-11.8,10.82c31.17,34,72.93,56.68,74.69,57.63a8,8,0,0,0,7.58,0C136.21,220.66,240,164,240,94A62.07,62.07,0,0,0,178,32Z" />
+  </g>
+    <text x="868" y="570" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="18" font-weight="bold" fill="#2B2D33">조기 스크리닝 설계</text>
+    <text font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" fill="#5C6470" font-size="14" x="868" y="596">노인 남성 대상 정신건강</text><text font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" fill="#5C6470" font-size="14" x="868" y="618">조기 검진 프로그램의 설계 근거</text></g>
+
+  <g id="footer">
+    <text x="1200" y="690" text-anchor="end" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="11" fill="#9AA3AF">12</text>
+  </g>
+</svg>

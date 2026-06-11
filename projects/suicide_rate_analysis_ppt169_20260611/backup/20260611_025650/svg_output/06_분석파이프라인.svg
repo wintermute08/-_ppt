@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
+      <feOffset dx="0" dy="2" result="offsetblur"/>
+      <feFlood flood-color="#1E3A5F" flood-opacity="0.06" result="shadowColor"/>
+      <feComposite in="shadowColor" in2="offsetblur" operator="in" result="shadow"/>
+      <feMerge><feMergeNode in="shadow"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <marker id="flowArrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#457B9D"/>
+    </marker>
+  </defs>
+
+  <g id="bg">
+    <rect width="1280" height="720" fill="#F5F7FA"/>
+  </g>
+
+  <g id="header">
+    <rect x="80" y="50" width="5" height="60" rx="2.5" fill="#E63946"/>
+    <text x="104" y="84" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="30" font-weight="bold" fill="#1E3A5F">정제 → 축소 → 군집 → 분류, 4단계 파이프라인</text>
+    <text x="104" y="110" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="14" font-weight="bold" fill="#5C6470" letter-spacing="1">03 머신러닝 분석 · 각 단계의 산출물이 다음 단계의 입력이 된다</text>
+  </g>
+
+  <g id="stage-1">
+    <rect x="80" y="170" width="260" height="380" rx="12" fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1.5" filter="url(#cardShadow)"/>
+    <path d="M 80 182 A 12 12 0 0 1 92 170 L 328 170 A 12 12 0 0 1 340 182 L 340 226 L 80 226 Z" fill="#1E3A5F"/>
+    <text x="104" y="206" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="19" font-weight="bold" fill="#FFFFFF">① 데이터 전처리</text>
+    <use data-icon="phosphor-duotone/gear" x="104" y="252" width="40" height="40" fill="#1E3A5F"/>
+    <text x="104" y="338" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="14" fill="#2B2D33">
+      <tspan x="104" dy="0">· HDI 결측 70% → 중앙값 대체</tspan>
+      <tspan x="104" dy="26">· GDP 문자열 → 숫자 변환</tspan>
+      <tspan x="104" dy="26">· 성별·연령·세대 원핫인코딩</tspan>
+      <tspan x="104" dy="26">· 표준화(StandardScaler)</tspan>
+    </text>
+    <rect x="104" y="476" width="212" height="48" rx="8" fill="#1E3A5F" fill-opacity="0.08"/>
+    <text x="210" y="506" text-anchor="middle" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="14" font-weight="bold" fill="#1E3A5F">산출: 정제 데이터 18변수</text>
+  </g>
+
+  <g id="stage-2">
+    <rect x="367" y="170" width="260" height="380" rx="12" fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1.5" filter="url(#cardShadow)"/>
+    <path d="M 367 182 A 12 12 0 0 1 379 170 L 615 170 A 12 12 0 0 1 627 182 L 627 226 L 367 226 Z" fill="#457B9D"/>
+    <text x="391" y="206" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="19" font-weight="bold" fill="#FFFFFF">② PCA 차원 축소</text>
+    <use data-icon="phosphor-duotone/chart-scatter" x="391" y="252" width="40" height="40" fill="#457B9D"/>
+    <text x="391" y="338" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="14" fill="#2B2D33">
+      <tspan x="391" dy="0">· 18차원 → 2차원 압축</tspan>
+      <tspan x="391" dy="26">· PC1 13.4% + PC2 11.9%</tspan>
+      <tspan x="391" dy="26">· 고위험/저위험 분포를</tspan>
+      <tspan x="391" dy="26">  눈으로 확인 가능하게</tspan>
+    </text>
+    <rect x="391" y="476" width="212" height="48" rx="8" fill="#457B9D" fill-opacity="0.10"/>
+    <text x="497" y="506" text-anchor="middle" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="14" font-weight="bold" fill="#457B9D">산출: 2D 시각화 좌표</text>
+  </g>
+
+  <g id="stage-3">
+    <rect x="654" y="170" width="260" height="380" rx="12" fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1.5" filter="url(#cardShadow)"/>
+    <path d="M 654 182 A 12 12 0 0 1 666 170 L 902 170 A 12 12 0 0 1 914 182 L 914 226 L 654 226 Z" fill="#2A9D8F"/>
+    <text x="678" y="206" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="19" font-weight="bold" fill="#FFFFFF">③ K-Means 군집</text>
+    <use data-icon="phosphor-duotone/flask" x="678" y="252" width="40" height="40" fill="#2A9D8F"/>
+    <text x="678" y="338" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="14" fill="#2B2D33">
+      <tspan x="678" dy="0">· 엘보우 방법으로 K=3 선정</tspan>
+      <tspan x="678" dy="26">· 라벨 없이 자동 그룹화</tspan>
+      <tspan x="678" dy="26">· 군집별 자살률</tspan>
+      <tspan x="678" dy="26">  19.7 / 12.3 / 4.4로 분리</tspan>
+    </text>
+    <rect x="678" y="476" width="212" height="48" rx="8" fill="#2A9D8F" fill-opacity="0.10"/>
+    <text x="784" y="506" text-anchor="middle" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="14" font-weight="bold" fill="#2A9D8F">산출: 위험 3계층 군집</text>
+  </g>
+
+  <g id="stage-4">
+    <rect x="941" y="170" width="260" height="380" rx="12" fill="#FFFFFF" stroke="#E63946" stroke-width="2" filter="url(#cardShadow)"/>
+    <path d="M 941 182 A 12 12 0 0 1 953 170 L 1189 170 A 12 12 0 0 1 1201 182 L 1201 226 L 941 226 Z" fill="#E63946"/>
+    <text x="965" y="206" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="19" font-weight="bold" fill="#FFFFFF">④ 분류 모델 비교</text>
+    <use data-icon="phosphor-duotone/brain" x="965" y="252" width="40" height="40" fill="#E63946"/>
+    <text x="965" y="338" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="14" fill="#2B2D33">
+      <tspan x="965" dy="0">· 학습 22,256 / 테스트 5,564</tspan>
+      <tspan x="965" dy="26">· 결정트리·로지스틱·KNN×2</tspan>
+      <tspan x="965" dy="26">· 동일 조건 정확도 비교</tspan>
+      <tspan x="965" dy="26">· 변수 중요도 추출</tspan>
+    </text>
+    <rect x="965" y="476" width="212" height="48" rx="8" fill="#E63946" fill-opacity="0.10"/>
+    <text x="1071" y="506" text-anchor="middle" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="14" font-weight="bold" fill="#E63946">산출: 최적 모델 80.18%</text>
+  </g>
+
+  <g id="flow-arrows">
+    <line x1="342" y1="360" x2="362" y2="360" stroke="#457B9D" stroke-width="3" marker-end="url(#flowArrow)"/>
+    <line x1="629" y1="360" x2="649" y2="360" stroke="#457B9D" stroke-width="3" marker-end="url(#flowArrow)"/>
+    <line x1="916" y1="360" x2="936" y2="360" stroke="#457B9D" stroke-width="3" marker-end="url(#flowArrow)"/>
+  </g>
+
+  <g id="bottom-note">
+    <rect x="80" y="580" width="1120" height="56" rx="10" fill="#1E3A5F" fill-opacity="0.06"/>
+    <text x="640" y="615" text-anchor="middle" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="16" fill="#2B2D33">비지도 학습(군집)으로 <tspan font-weight="bold" fill="#1E3A5F">패턴을 발견</tspan>하고, 지도 학습(분류)으로 <tspan font-weight="bold" fill="#E63946">예측력을 검증</tspan>하는 이중 구조</text>
+  </g>
+
+  <g id="footer">
+    <text x="1200" y="690" text-anchor="end" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="11" fill="#9AA3AF">06</text>
+  </g>
+</svg>

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <clipPath id="edaClip">
+      <rect x="80" y="150" width="700" height="496" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <g id="bg">
+    <rect width="1280" height="720" fill="#F5F7FA"/>
+  </g>
+
+  <g id="header">
+    <rect x="80" y="50" width="5" height="60" rx="2.5" fill="#E63946"/>
+    <text x="104" y="84" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="30" font-weight="bold" fill="#1E3A5F">자살률은 성별·연령에서 갈리고, 경제력과는 무관하다</text>
+    <text x="104" y="110" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="14" font-weight="bold" fill="#5C6470" letter-spacing="1">02 탐색적 데이터 분석 · 네 가지 큰 그림</text>
+  </g>
+
+  <g id="chart-eda">
+    <rect x="80" y="150" width="700" height="496" rx="14" fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1"/>
+    <image href="../images/01_eda_overview.png" x="92" y="158" width="676" height="480" preserveAspectRatio="xMidYMid meet" clip-path="url(#edaClip)"/>
+  </g>
+
+  <g id="takeaway-sex">
+    <rect x="812" y="150" width="388" height="112" rx="12" fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1"/>
+    <rect x="812" y="150" width="6" height="112" rx="3" fill="#E63946"/>
+    <text x="844" y="184" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="16" font-weight="bold" fill="#2B2D33">남성이 여성의 <tspan fill="#E63946" font-size="20">3.5배</tspan></text>
+    <text x="844" y="212" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="14" fill="#5C6470">
+      <tspan x="844" dy="0">10만명당 남성 20.7명 vs 여성 5.9명 —</tspan>
+      <tspan x="844" dy="22">전 기간·전 연령에서 일관된 격차</tspan>
+    </text>
+  </g>
+
+  <g id="takeaway-age">
+    <rect x="812" y="278" width="388" height="112" rx="12" fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1"/>
+    <rect x="812" y="278" width="6" height="112" rx="3" fill="#1E3A5F"/>
+    <text x="844" y="312" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="16" font-weight="bold" fill="#2B2D33">나이가 들수록 위험 증가</text>
+    <text x="844" y="340" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="14" fill="#5C6470">
+      <tspan x="844" dy="0">75세 이상 24.5명으로 최고 —</tspan>
+      <tspan x="844" dy="22">5–14세(0.6명)의 <tspan font-weight="bold" fill="#1E3A5F">40배</tspan></tspan>
+    </text>
+  </g>
+
+  <g id="takeaway-trend">
+    <rect x="812" y="406" width="388" height="112" rx="12" fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1"/>
+    <rect x="812" y="406" width="6" height="112" rx="3" fill="#2A9D8F"/>
+    <use data-icon="phosphor-duotone/trend-down" x="844" y="424" width="26" height="26" fill="#2A9D8F"/>
+    <text x="884" y="442" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="16" font-weight="bold" fill="#2B2D33">1995년 정점 후 하락세</text>
+    <text x="844" y="470" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="14" fill="#5C6470">
+      <tspan x="844" dy="0">전세계 평균 15.3 → 11.4명으로 감소,</tspan>
+      <tspan x="844" dy="22">그러나 고위험 집단의 격차는 그대로</tspan>
+    </text>
+  </g>
+
+  <g id="takeaway-gdp">
+    <rect x="812" y="534" width="388" height="112" rx="12" fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1"/>
+    <rect x="812" y="534" width="6" height="112" rx="3" fill="#457B9D"/>
+    <text x="844" y="568" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="16" font-weight="bold" fill="#2B2D33">GDP와 상관계수 <tspan fill="#457B9D" font-size="20">+0.06</tspan></text>
+    <text x="844" y="596" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="14" fill="#5C6470">
+      <tspan x="844" dy="0">1인당 GDP와 자살률은 사실상 무상관 —</tspan>
+      <tspan x="844" dy="22">"돈이 많은 나라 = 안전"이 아니다</tspan>
+    </text>
+  </g>
+
+  <g id="footer">
+    <text x="80" y="690" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="11" fill="#9AA3AF">Source: Suicide Rates Overview 1985–2016 (Kaggle) · 자체 분석</text>
+    <text x="1200" y="690" text-anchor="end" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="11" fill="#9AA3AF">04</text>
+  </g>
+</svg>

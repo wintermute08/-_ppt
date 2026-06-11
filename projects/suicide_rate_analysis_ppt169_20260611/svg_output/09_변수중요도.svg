@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <clipPath id="fiClip">
+      <rect x="80" y="150" width="730" height="460" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <g id="bg">
+    <rect width="1280" height="720" fill="#F5F7FA"/>
+  </g>
+
+  <g id="header">
+    <rect x="80" y="50" width="5" height="60" rx="2.5" fill="#E63946"/>
+    <text x="104" y="84" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="30" font-weight="bold" fill="#1E3A5F">위험을 가르는 것은 경제가 아니라 '누구인가'다</text>
+    <text x="104" y="110" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="14" font-weight="bold" fill="#5C6470" letter-spacing="1">03 머신러닝 분석 · 결정 트리 변수 중요도 (상위 15개)</text>
+  </g>
+
+  <g id="chart-fi">
+    <rect x="80" y="150" width="730" height="460" rx="14" fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1"/>
+    <image href="../images/07_feature_importance.png" x="95" y="162" width="700" height="436" preserveAspectRatio="xMidYMid meet" clip-path="url(#fiClip)"/>
+  </g>
+
+  <g id="rank-1">
+    <rect x="842" y="150" width="358" height="104" rx="12" fill="#FFFFFF" stroke="#E63946" stroke-width="2"/>
+    <text x="874" y="186" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="14" font-weight="bold" fill="#E63946" letter-spacing="1">1위 · 중요도 0.366</text>
+    <text x="874" y="216" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="19" font-weight="bold" fill="#2B2D33">연령: 5–14세 여부</text>
+    <text x="874" y="240" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="13" fill="#5C6470">소아 연령대는 거의 전부 저위험 — 최강 분리 변수</text>
+  </g>
+
+  <g id="rank-2">
+    <rect x="842" y="270" width="358" height="104" rx="12" fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1"/>
+    <text x="874" y="306" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="14" font-weight="bold" fill="#1E3A5F" letter-spacing="1">2위 · 중요도 0.299</text>
+    <text x="874" y="336" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="19" font-weight="bold" fill="#2B2D33">성별: 남성 여부</text>
+    <text x="874" y="360" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="13" fill="#5C6470">남성이면 고위험 확률 급상승</text>
+  </g>
+
+  <g id="rank-3">
+    <rect x="842" y="390" width="358" height="104" rx="12" fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1"/>
+    <text x="874" y="426" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="14" font-weight="bold" fill="#457B9D" letter-spacing="1">3위 · 중요도 0.130</text>
+    <text x="874" y="456" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="19" font-weight="bold" fill="#2B2D33">국가 GDP 규모</text>
+    <text x="874" y="480" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="13" fill="#5C6470">경제 변수는 보조적 역할에 그침</text>
+  </g>
+
+  <g id="ratio-box">
+    <rect x="842" y="510" width="358" height="100" rx="12" fill="#1E3A5F"/>
+    <text x="874" y="548" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="15" fill="#B9C6D6">인구통계(연령+성별) 합산 중요도</text>
+    <text x="874" y="588" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="30" font-weight="bold" fill="#FFFFFF">약 67% <tspan font-size="16" font-weight="normal" fill="#8DA3BB">vs 경제 변수 24%</tspan></text>
+  </g>
+
+  <g id="footer">
+    <text x="80" y="690" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="11" fill="#9AA3AF">Source: 자체 분석 — 결정 트리(max_depth=8) feature_importances_</text>
+    <text x="1200" y="690" text-anchor="end" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="11" fill="#9AA3AF">09</text>
+  </g>
+</svg>

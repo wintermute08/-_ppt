@@ -1,0 +1,94 @@
+{
+  "sex_avg": {
+    "female": 5.39,
+    "male": 20.24
+  },
+  "age_avg": {
+    "5-14 years": 0.62,
+    "15-24 years": 8.95,
+    "25-34 years": 12.19,
+    "35-54 years": 14.95,
+    "55-74 years": 16.16,
+    "75+ years": 23.96
+  },
+  "year_peak": {
+    "year": 1995,
+    "value": 15.66
+  },
+  "year_last": {
+    "year": 2016,
+    "value": 13.42
+  },
+  "gdp_corr": 0.0018,
+  "median_rate": 5.99,
+  "hdi_median": 0.779,
+  "n_records": 27820,
+  "n_features": 18,
+  "n_train": 22256,
+  "n_test": 5564,
+  "pca": {
+    "pc1": 0.134,
+    "pc2": 0.119
+  },
+  "cluster_means": {
+    "군집1": 12.25,
+    "군집2": 4.43,
+    "군집3": 19.66
+  },
+  "models": [
+    {
+      "model": "결정 트리",
+      "acc": 0.8018
+    },
+    {
+      "model": "KNN (K=11)",
+      "acc": 0.7868
+    },
+    {
+      "model": "KNN (K=5)",
+      "acc": 0.7822
+    },
+    {
+      "model": "로지스틱 회귀",
+      "acc": 0.7795
+    }
+  ],
+  "best_model": {
+    "name": "결정 트리",
+    "precision": 0.805,
+    "recall": 0.7966,
+    "f1": 0.8008,
+    "cm": [
+      [
+        2244,
+        537
+      ],
+      [
+        566,
+        2217
+      ]
+    ]
+  },
+  "top_features": {
+    "age_5-14 years": 0.3655,
+    "sex_male": 0.2994,
+    "gdp_for_year ($)": 0.1297,
+    "gdp_per_capita ($)": 0.0637,
+    "HDI for year": 0.0429
+  },
+  "pivot_75_male": 37.99,
+  "pivot_75_female": 9.92,
+  "hdi_band": {
+    "저개발\n(~0.55)": 8.54,
+    "중하위\n(~0.70)": 9.86,
+    "중상위\n(~0.80)": 12.96,
+    "고개발\n(0.80~)": 13.46
+  },
+  "country_top5": {
+    "Lithuania": 40.42,
+    "Sri Lanka": 35.3,
+    "Russian Federation": 34.89,
+    "Hungary": 32.76,
+    "Belarus": 31.08
+  }
+}

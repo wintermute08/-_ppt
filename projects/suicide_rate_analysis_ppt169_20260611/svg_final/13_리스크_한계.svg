@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <g id="bg">
+    <rect width="1280" height="720" fill="#F5F7FA" />
+  </g>
+
+  <g id="header">
+    <path fill="#E63946" d="M82.50,50 H82.50 A2.50,2.50 0 0 1 85,52.50 V107.50 A2.50,2.50 0 0 1 82.50,110 H82.50 A2.50,2.50 0 0 1 80,107.50 V52.50 A2.50,2.50 0 0 1 82.50,50 Z" />
+    <text x="104" y="84" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="30" font-weight="bold" fill="#1E3A5F">한계를 인정해야 결과를 바르게 쓸 수 있다</text>
+    <text x="104" y="110" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="14" font-weight="bold" fill="#5C6470" letter-spacing="1">05 리스크 및 분석의 한계 · 6가지 주의점</text>
+  </g>
+
+  <g id="limit-1">
+    <path fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1" d="M92,150 H616 A12,12 0 0 1 628,162 V288 A12,12 0 0 1 616,300 H92 A12,12 0 0 1 80,288 V162 A12,12 0 0 1 92,150 Z" />
+    <circle cx="124" cy="194" r="20" fill="#E63946" fill-opacity="0.10" />
+    <text x="124" y="201" text-anchor="middle" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="16" font-weight="bold" fill="#E63946">1</text>
+    <text x="164" y="200" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="18" font-weight="bold" fill="#2B2D33">생태학적 오류 위험</text>
+    <text font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" fill="#5C6470" font-size="14" x="164" y="232"><tspan>국가 단위 집계 데이터의 패턴을 <tspan font-weight="bold" fill="#E63946">개인 예측에 직접 적용 불가</tspan> —</tspan>
+      </text><text font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" fill="#5C6470" font-size="14" x="164" y="256">집단의 경향과 개인의 위험은 다른 문제</text></g>
+
+  <g id="limit-2">
+    <path fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1" d="M664,150 H1188 A12,12 0 0 1 1200,162 V288 A12,12 0 0 1 1188,300 H664 A12,12 0 0 1 652,288 V162 A12,12 0 0 1 664,150 Z" />
+    <circle cx="696" cy="194" r="20" fill="#E63946" fill-opacity="0.10" />
+    <text x="696" y="201" text-anchor="middle" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="16" font-weight="bold" fill="#E63946">2</text>
+    <text x="736" y="200" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="18" font-weight="bold" fill="#2B2D33">HDI 결측 70%</text>
+    <text font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" fill="#5C6470" font-size="14" x="736" y="232"><tspan>중앙값(0.779) 일괄 대체로 <tspan font-weight="bold">HDI 효과 추정이 왜곡</tspan>될 수 있음 —</tspan>
+      </text><text font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" fill="#5C6470" font-size="14" x="736" y="256">'발전의 역설' 해석에 보수적 접근 필요</text></g>
+
+  <g id="limit-3">
+    <path fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1" d="M92,320 H616 A12,12 0 0 1 628,332 V458 A12,12 0 0 1 616,470 H92 A12,12 0 0 1 80,458 V332 A12,12 0 0 1 92,320 Z" />
+    <circle cx="124" cy="364" r="20" fill="#457B9D" fill-opacity="0.12" />
+    <text x="124" y="371" text-anchor="middle" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="16" font-weight="bold" fill="#457B9D">3</text>
+    <text x="164" y="370" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="18" font-weight="bold" fill="#2B2D33">시점 한계 (–2016)</text>
+    <text font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" fill="#5C6470" font-size="14" x="164" y="402">코로나19 이후의 정신건강 변화, 최근 10년의</text><text font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" fill="#5C6470" font-size="14" x="164" y="426"><tspan>사회 변화가 <tspan font-weight="bold">반영되지 않음</tspan></tspan>
+    </text></g>
+
+  <g id="limit-4">
+    <path fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1" d="M664,320 H1188 A12,12 0 0 1 1200,332 V458 A12,12 0 0 1 1188,470 H664 A12,12 0 0 1 652,458 V332 A12,12 0 0 1 664,320 Z" />
+    <circle cx="696" cy="364" r="20" fill="#457B9D" fill-opacity="0.12" />
+    <text x="696" y="371" text-anchor="middle" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="16" font-weight="bold" fill="#457B9D">4</text>
+    <text x="736" y="370" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="18" font-weight="bold" fill="#2B2D33">국가별 집계 기준 차이</text>
+    <text font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" fill="#5C6470" font-size="14" x="736" y="402">자살 판정·신고 기준이 나라마다 달라</text><text font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" fill="#5C6470" font-size="14" x="736" y="426"><tspan><tspan font-weight="bold">과소보고 가능성</tspan> 존재 — 국가 간 비교 주의</tspan>
+    </text></g>
+
+  <g id="limit-5">
+    <path fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1" d="M92,490 H616 A12,12 0 0 1 628,502 V628 A12,12 0 0 1 616,640 H92 A12,12 0 0 1 80,628 V502 A12,12 0 0 1 92,490 Z" />
+    <circle cx="124" cy="534" r="20" fill="#1E3A5F" fill-opacity="0.10" />
+    <text x="124" y="541" text-anchor="middle" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="16" font-weight="bold" fill="#1E3A5F">5</text>
+    <text x="164" y="540" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="18" font-weight="bold" fill="#2B2D33">임계값 민감성</text>
+    <text font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" fill="#5C6470" font-size="14" x="164" y="572"><tspan>중앙값 기준 이진 분류는 <tspan font-weight="bold">경계선 케이스에 민감</tspan> —</tspan>
+      </text><text font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" fill="#5C6470" font-size="14" x="164" y="596">임계값을 바꾸면 결과도 달라질 수 있음</text></g>
+
+  <g id="limit-6">
+    <path fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1" d="M664,490 H1188 A12,12 0 0 1 1200,502 V628 A12,12 0 0 1 1188,640 H664 A12,12 0 0 1 652,628 V502 A12,12 0 0 1 664,490 Z" />
+    <circle cx="696" cy="534" r="20" fill="#1E3A5F" fill-opacity="0.10" />
+    
+  <g transform="translate(682.0, 520.0) scale(0.109375)" fill="#1E3A5F">
+    <path d="M56,88l32,80c0,17.67-20,24-32,24s-32-6.33-32-24ZM200,56l-32,80c0,17.67,20,24,32,24s32-6.33,32-24Z" opacity="0.2" />
+    <path d="M239.43,133l-32-80h0a8,8,0,0,0-9.16-4.84L136,62V40a8,8,0,0,0-16,0V65.58L54.26,80.19A8,8,0,0,0,48.57,85h0v.06L16.57,165a7.92,7.92,0,0,0-.57,3c0,23.31,24.54,32,40,32s40-8.69,40-32a7.92,7.92,0,0,0-.57-3L66.92,93.77,120,82V208H104a8,8,0,0,0,0,16h48a8,8,0,0,0,0-16H136V78.42L187,67.1,160.57,133a7.92,7.92,0,0,0-.57,3c0,23.31,24.54,32,40,32s40-8.69,40-32A7.92,7.92,0,0,0,239.43,133ZM56,184c-7.53,0-22.76-3.61-23.93-14.64L56,109.54l23.93,59.82C78.76,180.39,63.53,184,56,184Zm144-32c-7.53,0-22.76-3.61-23.93-14.64L200,77.54l23.93,59.82C222.76,148.39,207.53,152,200,152Z" />
+  </g>
+    <text x="736" y="540" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="18" font-weight="bold" fill="#2B2D33">윤리적 해석 주의</text>
+    <text font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" fill="#5C6470" font-size="14" x="736" y="572"><tspan>민감한 주제 — 특정 집단에 대한 <tspan font-weight="bold" fill="#E63946">낙인 효과 방지</tspan>,</tspan>
+      </text><text font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" fill="#5C6470" font-size="14" x="736" y="596">결과 공개·활용 시 윤리 검토 필수</text></g>
+
+  <g id="footer">
+    <text x="1200" y="690" text-anchor="end" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="11" fill="#9AA3AF">13</text>
+  </g>
+</svg>

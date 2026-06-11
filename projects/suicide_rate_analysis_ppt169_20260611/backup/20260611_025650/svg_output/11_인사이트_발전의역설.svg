@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <clipPath id="insClip">
+      <rect x="80" y="150" width="1120" height="330" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <g id="bg">
+    <rect width="1280" height="720" fill="#F5F7FA"/>
+  </g>
+
+  <g id="header">
+    <rect x="80" y="50" width="5" height="60" rx="2.5" fill="#E63946"/>
+    <text x="104" y="84" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="30" font-weight="bold" fill="#1E3A5F">잘사는 나라가 더 위험하다 — 발전의 역설</text>
+    <text x="104" y="110" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="14" font-weight="bold" fill="#5C6470" letter-spacing="1">04 핵심 인사이트 2 · 연령×성별 교차 + HDI 구간별 자살률</text>
+  </g>
+
+  <g id="chart-insights">
+    <rect x="80" y="150" width="1120" height="330" rx="14" fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1"/>
+    <image href="../images/08_insights.png" x="100" y="162" width="1080" height="306" preserveAspectRatio="xMidYMid meet" clip-path="url(#insClip)"/>
+  </g>
+
+  <g id="hdi-steps">
+    <rect x="80" y="506" width="540" height="134" rx="12" fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1"/>
+    <text x="112" y="540" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="15" font-weight="bold" fill="#2B2D33">HDI(인간개발지수)가 오를수록 자살률도 오른다</text>
+    <text x="112" y="576" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="16" fill="#5C6470">저개발 <tspan font-weight="bold" fill="#2A9D8F">8.5</tspan>  →  중하위 <tspan font-weight="bold" fill="#457B9D">9.9</tspan>  →  중상위 <tspan font-weight="bold" fill="#E63946">13.0</tspan>  →  고개발 <tspan font-weight="bold" fill="#E63946">13.5</tspan></text>
+    <text x="112" y="612" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="13" fill="#9AA3AF">10만명당 평균 자살률 — 단조 증가 패턴</text>
+  </g>
+
+  <g id="implication-box">
+    <rect x="652" y="506" width="548" height="134" rx="12" fill="#1E3A5F"/>
+    <use data-icon="phosphor-duotone/lightbulb" x="684" y="544" width="40" height="40" fill="#F4A7AE"/>
+    <text x="748" y="552" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="17" font-weight="bold" fill="#FFFFFF">경제 성장만으로는 자살을 막을 수 없다</text>
+    <text x="748" y="582" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="14" fill="#B9C6D6">
+      <tspan x="748" dy="0">성장 정책과 정신건강 정책은 별도 트랙으로 —</tspan>
+      <tspan x="748" dy="24">정신건강 인프라·사회 안전망에 대한 동반 투자 필요</tspan>
+    </text>
+  </g>
+
+  <g id="footer">
+    <text x="80" y="690" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="11" fill="#9AA3AF">Source: 자체 분석 — HDI 구간별 평균 (결측 70%는 중앙값 0.779 대체, 한계점 P13 참조)</text>
+    <text x="1200" y="690" text-anchor="end" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="11" fill="#9AA3AF">11</text>
+  </g>
+</svg>

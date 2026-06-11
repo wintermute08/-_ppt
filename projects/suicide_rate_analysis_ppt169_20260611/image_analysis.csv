@@ -1,0 +1,10 @@
+No,Filename,Width,Height,AspectRatio,PixelAspectRatio,RatioSource,UsageCount,DisplayRatioVariants,AssetKind,SvgRenderable,PptxNativeSupported,SizeKB,Category,ImageArea_SxS,TextArea_SxS
+1,01_eda_overview.png,2085,1477,1.41,1.41,pixel,1,,bitmap,True,True,194.4,Standard landscape,847x600,293x600
+2,02_pca.png,1185,885,1.34,1.34,pixel,1,,bitmap,True,True,180.8,Standard landscape,803x600,337x600
+3,03_elbow.png,1035,585,1.77,1.77,pixel,1,,bitmap,True,True,50.7,Wide landscape,812x459,328x600
+4,04_kmeans.png,1185,885,1.34,1.34,pixel,1,,bitmap,True,True,148.8,Standard landscape,803x600,337x600
+5,05_model_compare.png,1185,735,1.61,1.61,pixel,1,,bitmap,True,True,48.9,Wide landscape,812x504,328x600
+6,06_confusion.png,791,660,1.20,1.20,pixel,1,,bitmap,True,True,35.8,Near square,719x600,421x600
+7,07_feature_importance.png,1335,885,1.51,1.51,pixel,1,,bitmap,True,True,83.2,Wide landscape,812x538,328x600
+8,08_insights.png,2085,742,2.81,2.81,pixel,1,,bitmap,True,True,82.5,Ultra-wide,1160x413,1160x167
+9,09_country_top10.png,1335,735,1.82,1.82,pixel,1,,bitmap,True,True,43.9,Wide landscape,812x447,328x600

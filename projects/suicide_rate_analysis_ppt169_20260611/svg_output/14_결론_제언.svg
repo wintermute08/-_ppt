@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="endBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E3A5F"/>
+      <stop offset="100%" stop-color="#16293F"/>
+    </linearGradient>
+    <radialGradient id="endGlow" cx="22%" cy="20%" r="55%">
+      <stop offset="0%" stop-color="#457B9D" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#457B9D" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <g id="bg">
+    <rect width="1280" height="720" fill="url(#endBg)"/>
+    <rect width="1280" height="720" fill="url(#endGlow)"/>
+  </g>
+
+  <g id="bg-decor">
+    <circle cx="1150" cy="620" r="220" fill="#E63946" fill-opacity="0.05"/>
+    <circle cx="1100" cy="660" r="120" fill="#457B9D" fill-opacity="0.08"/>
+  </g>
+
+  <g id="conclusion-title">
+    <text x="80" y="150" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="16" font-weight="bold" fill="#8DA3BB" letter-spacing="4">결론 및 제언</text>
+    <text x="80" y="220" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="44" font-weight="bold" fill="#FFFFFF">위험은 <tspan fill="#F4A7AE">예측 가능</tspan>하다.</text>
+    <text x="80" y="278" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="22" fill="#B9C6D6">결정 트리 정확도 80.18% — 데이터는 이미 어디에 자원을 보내야 하는지 알고 있습니다.</text>
+  </g>
+
+  <g id="rec-1">
+    <line x1="80" y1="360" x2="80" y2="420" stroke="#E63946" stroke-width="4"/>
+    <text x="110" y="385" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="21" font-weight="bold" fill="#FFFFFF">제언 1 · 노인 남성 자살 예방 프로그램 최우선 강화</text>
+    <text x="110" y="414" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="15" fill="#8DA3BB">75세 이상 남성은 전체 평균의 3배 — 가장 확실한 개입 지점</text>
+  </g>
+
+  <g id="rec-2">
+    <line x1="80" y1="455" x2="80" y2="515" stroke="#457B9D" stroke-width="4"/>
+    <text x="110" y="480" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="21" font-weight="bold" fill="#FFFFFF">제언 2 · 경제 성장과 정신건강 지원은 별도 정책 트랙으로</text>
+    <text x="110" y="509" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="15" fill="#8DA3BB">HDI가 높을수록 자살률 상승 — 성장이 정신건강을 대신하지 못한다</text>
+  </g>
+
+  <g id="rec-3">
+    <line x1="80" y1="550" x2="80" y2="610" stroke="#2A9D8F" stroke-width="4"/>
+    <text x="110" y="575" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="21" font-weight="bold" fill="#FFFFFF">제언 3 · 국가별 맞춤 자살 예방 지표 수립에 본 분석 활용</text>
+    <text x="110" y="604" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="15" fill="#8DA3BB">3개 위험 군집 — 나라마다 다른 처방이 필요하다</text>
+  </g>
+
+  <g id="end-footer">
+    <line x1="80" y1="655" x2="1200" y2="655" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="1"/>
+    <text x="80" y="692" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="14" fill="#8DA3BB">감사합니다 · 데이터 분석 프로젝트 발표</text>
+    <text x="1200" y="692" text-anchor="end" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="11" fill="#5C6470">14</text>
+  </g>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <clipPath id="pcaClip">
+      <rect x="80" y="150" width="548" height="380" rx="14"/>
+    </clipPath>
+    <clipPath id="kmClip">
+      <rect x="652" y="150" width="548" height="380" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <g id="bg">
+    <rect width="1280" height="720" fill="#F5F7FA"/>
+  </g>
+
+  <g id="header">
+    <rect x="80" y="50" width="5" height="60" rx="2.5" fill="#E63946"/>
+    <text x="104" y="84" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="30" font-weight="bold" fill="#1E3A5F">라벨 없이도 위험 그룹이 스스로 갈라진다</text>
+    <text x="104" y="110" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="14" font-weight="bold" fill="#5C6470" letter-spacing="1">03 머신러닝 분석 · PCA 차원 축소 + K-Means 군집 (K=3)</text>
+  </g>
+
+  <g id="chart-pca">
+    <rect x="80" y="150" width="548" height="380" rx="14" fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1"/>
+    <image href="../images/02_pca.png" x="95" y="160" width="518" height="360" preserveAspectRatio="xMidYMid meet" clip-path="url(#pcaClip)"/>
+  </g>
+
+  <g id="chart-kmeans">
+    <rect x="652" y="150" width="548" height="380" rx="14" fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1"/>
+    <image href="../images/04_kmeans.png" x="667" y="160" width="518" height="360" preserveAspectRatio="xMidYMid meet" clip-path="url(#kmClip)"/>
+  </g>
+
+  <g id="cluster-band">
+    <rect x="80" y="556" width="1120" height="84" rx="12" fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1"/>
+    <text x="116" y="590" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="14" font-weight="bold" fill="#5C6470" letter-spacing="1">군집별 평균 자살률 (10만명당)</text>
+    <circle cx="130" cy="616" r="7" fill="#E63946"/>
+    <text x="148" y="622" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="17" fill="#2B2D33">고위험 군집 <tspan font-weight="bold" fill="#E63946">19.7</tspan></text>
+    <circle cx="400" cy="616" r="7" fill="#457B9D"/>
+    <text x="418" y="622" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="17" fill="#2B2D33">중위험 군집 <tspan font-weight="bold" fill="#457B9D">12.3</tspan></text>
+    <circle cx="670" cy="616" r="7" fill="#2A9D8F"/>
+    <text x="688" y="622" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="17" fill="#2B2D33">저위험 군집 <tspan font-weight="bold" fill="#2A9D8F">4.4</tspan></text>
+    <text x="1164" y="622" text-anchor="end" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="17" font-weight="bold" fill="#1E3A5F">최대 4.5배 차이 → 위험 계층화 가능</text>
+  </g>
+
+  <g id="footer">
+    <text x="80" y="690" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="11" fill="#9AA3AF">Source: 자체 분석 — PCA 설명분산 PC1 13.4% / PC2 11.9%, K-Means 엘보우 기준 K=3</text>
+    <text x="1200" y="690" text-anchor="end" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="11" fill="#9AA3AF">07</text>
+  </g>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E3A5F"/>
+      <stop offset="100%" stop-color="#16293F"/>
+    </linearGradient>
+    <radialGradient id="heroGlow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#E63946" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#E63946" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <g id="bg">
+    <rect width="1280" height="720" fill="url(#heroBg)"/>
+    <rect width="1280" height="720" fill="url(#heroGlow)"/>
+  </g>
+
+  <g id="header-label">
+    <text x="640" y="120" text-anchor="middle" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="16" font-weight="bold" fill="#8DA3BB" letter-spacing="4">핵심 인사이트 1 · 가장 취약한 집단</text>
+  </g>
+
+  <g id="hero-number">
+    <text x="640" y="330" text-anchor="middle" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="90" font-weight="bold" fill="#FFFFFF">75세 이상 남성, <tspan fill="#E63946">38명</tspan></text>
+    <text x="640" y="385" text-anchor="middle" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="22" fill="#B9C6D6">인구 10만명당 자살자 수 — 전 집단 중 압도적 1위</text>
+  </g>
+
+  <g id="compare-line">
+    <line x1="240" y1="460" x2="1040" y2="460" stroke="#FFFFFF" stroke-opacity="0.15" stroke-width="1"/>
+    <text x="380" y="510" text-anchor="middle" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="17" fill="#8DA3BB">같은 연령 여성 대비</text>
+    <text x="380" y="556" text-anchor="middle" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="36" font-weight="bold" fill="#E63946">3.8배</text>
+    <text x="900" y="510" text-anchor="middle" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="17" fill="#8DA3BB">전체 평균 대비</text>
+    <text x="900" y="556" text-anchor="middle" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="36" font-weight="bold" fill="#FFFFFF">3.0배</text>
+  </g>
+
+  <g id="takeaway">
+    <text x="640" y="640" text-anchor="middle" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="20" fill="#FFFFFF">노인 남성 대상 <tspan font-weight="bold" fill="#F4A7AE">정신건강 지원이 자살 예방의 최우선 과제</tspan>입니다</text>
+  </g>
+
+  <g id="footer">
+    <text x="1200" y="700" text-anchor="end" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="11" fill="#5C6470">10</text>
+  </g>
+</svg>

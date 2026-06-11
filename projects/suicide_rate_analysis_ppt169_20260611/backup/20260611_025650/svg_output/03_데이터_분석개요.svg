@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <filter id="cardShadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="6"/>
+      <feOffset dx="0" dy="4" result="offsetblur"/>
+      <feFlood flood-color="#1E3A5F" flood-opacity="0.07" result="shadowColor"/>
+      <feComposite in="shadowColor" in2="offsetblur" operator="in" result="shadow"/>
+      <feMerge><feMergeNode in="shadow"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <g id="bg">
+    <rect width="1280" height="720" fill="#F5F7FA"/>
+  </g>
+
+  <g id="header">
+    <rect x="80" y="50" width="5" height="60" rx="2.5" fill="#E63946"/>
+    <text x="104" y="84" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="30" font-weight="bold" fill="#1E3A5F">32년치 글로벌 데이터로 고위험 집단을 찾는다</text>
+    <text x="104" y="110" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="14" font-weight="bold" fill="#5C6470" letter-spacing="1">01 데이터와 분석 개요 · SUICIDE RATES OVERVIEW 1985–2016 (KAGGLE)</text>
+  </g>
+
+  <g id="kpi-records">
+    <rect x="80" y="150" width="265" height="170" rx="14" fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1" filter="url(#cardShadow)"/>
+    <use data-icon="phosphor-duotone/database" x="108" y="174" width="36" height="36" fill="#1E3A5F"/>
+    <text x="108" y="248" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="38" font-weight="bold" fill="#1E3A5F">27,820</text>
+    <text x="108" y="280" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="15" fill="#5C6470">분석 레코드 수</text>
+  </g>
+
+  <g id="kpi-countries">
+    <rect x="365" y="150" width="265" height="170" rx="14" fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1" filter="url(#cardShadow)"/>
+    <use data-icon="phosphor-duotone/globe" x="393" y="174" width="36" height="36" fill="#457B9D"/>
+    <text x="393" y="248" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="38" font-weight="bold" fill="#1E3A5F">101개국</text>
+    <text x="393" y="280" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="15" fill="#5C6470">전세계 국가 포함</text>
+  </g>
+
+  <g id="kpi-years">
+    <rect x="650" y="150" width="265" height="170" rx="14" fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1" filter="url(#cardShadow)"/>
+    <use data-icon="phosphor-duotone/calendar" x="678" y="174" width="36" height="36" fill="#457B9D"/>
+    <text x="678" y="248" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="38" font-weight="bold" fill="#1E3A5F">32년</text>
+    <text x="678" y="280" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="15" fill="#5C6470">1985 – 2016</text>
+  </g>
+
+  <g id="kpi-vars">
+    <rect x="935" y="150" width="265" height="170" rx="14" fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1" filter="url(#cardShadow)"/>
+    <use data-icon="phosphor-duotone/chart-bar" x="963" y="174" width="36" height="36" fill="#E63946"/>
+    <text x="963" y="248" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="38" font-weight="bold" fill="#1E3A5F">12개</text>
+    <text x="963" y="280" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="15" fill="#5C6470">변수 (성별·연령·GDP·HDI 등)</text>
+  </g>
+
+  <g id="goal-box">
+    <rect x="80" y="360" width="1120" height="150" rx="14" fill="#1E3A5F"/>
+    <use data-icon="phosphor-duotone/target" x="116" y="400" width="44" height="44" fill="#FFFFFF"/>
+    <text x="190" y="412" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="15" font-weight="bold" fill="#8DA3BB" letter-spacing="2">분석 목표</text>
+    <text x="190" y="450" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF">자살률 <tspan fill="#F4A7AE">고위험 / 저위험</tspan>을 가르는 국가·인구 특성을 머신러닝으로 규명</text>
+    <text x="190" y="484" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="15" fill="#B9C6D6">타깃 변수: 인구 10만명당 자살률이 중앙값(5.99명) 이상이면 고위험(1), 미만이면 저위험(0)</text>
+  </g>
+
+  <g id="method-strip">
+    <rect x="80" y="540" width="1120" height="90" rx="14" fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1"/>
+    <text x="116" y="578" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="14" font-weight="bold" fill="#5C6470" letter-spacing="1">사용 기법</text>
+    <text x="116" y="608" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="17" fill="#2B2D33">탐색적 데이터 분석(EDA) · PCA 차원 축소 · K-Means 군집 분석 · <tspan font-weight="bold" fill="#1E3A5F">분류 모델 4종 비교</tspan> (결정트리 / 로지스틱 회귀 / KNN×2)</text>
+  </g>
+
+  <g id="footer">
+    <text x="80" y="690" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="11" fill="#9AA3AF">Source: Suicide Rates Overview 1985 to 2016, Kaggle · WHO/UNDP/World Bank 결합 데이터</text>
+    <text x="1200" y="690" text-anchor="end" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="11" fill="#9AA3AF">03</text>
+  </g>
+</svg>

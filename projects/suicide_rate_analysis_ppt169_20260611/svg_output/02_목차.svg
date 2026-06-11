@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="rail" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E3A5F"/>
+      <stop offset="100%" stop-color="#457B9D"/>
+    </linearGradient>
+  </defs>
+
+  <g id="bg">
+    <rect width="1280" height="720" fill="#F5F7FA"/>
+    <circle cx="1180" cy="80" r="160" fill="#457B9D" fill-opacity="0.06"/>
+  </g>
+
+  <g id="header">
+    <rect x="80" y="56" width="5" height="64" rx="2.5" fill="#E63946"/>
+    <text x="104" y="92" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="34" font-weight="bold" fill="#1E3A5F">오늘 발표의 흐름</text>
+    <text x="104" y="120" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="14" font-weight="bold" fill="#5C6470" letter-spacing="2">데이터 탐색에서 정책 제언까지 · 5단계</text>
+  </g>
+
+  <g id="header-rule">
+    <line x1="80" y1="150" x2="1200" y2="150" stroke="#D8DEE6" stroke-width="2"/>
+    <line x1="130" y1="205" x2="130" y2="630" stroke="url(#rail)" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <g id="item-01">
+    <circle cx="130" cy="215" r="24" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="3"/>
+    <text x="130" y="222" text-anchor="middle" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="15" font-weight="bold" fill="#1E3A5F">01</text>
+    <text x="186" y="210" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="21" font-weight="bold" fill="#2B2D33">데이터와 분석 개요</text>
+    <text x="186" y="235" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="14" fill="#5C6470">어떤 데이터로 무엇을 분석했는가 — 27,820건, 101개국, 32년</text>
+    <use data-icon="phosphor-duotone/database" x="1130" y="195" width="36" height="36" fill="#1E3A5F"/>
+  </g>
+
+  <g id="item-02">
+    <circle cx="130" cy="315" r="24" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="3"/>
+    <text x="130" y="322" text-anchor="middle" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="15" font-weight="bold" fill="#1E3A5F">02</text>
+    <text x="186" y="310" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="21" font-weight="bold" fill="#2B2D33">탐색적 데이터 분석</text>
+    <text x="186" y="335" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="14" fill="#5C6470">성별·연령·연도·경제력 — 데이터가 보여주는 네 가지 큰 그림</text>
+    <use data-icon="phosphor-duotone/magnifying-glass" x="1130" y="295" width="36" height="36" fill="#1E3A5F"/>
+  </g>
+
+  <g id="item-03">
+    <circle cx="130" cy="415" r="24" fill="#FFFFFF" stroke="#457B9D" stroke-width="3"/>
+    <text x="130" y="422" text-anchor="middle" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="15" font-weight="bold" fill="#457B9D">03</text>
+    <text x="186" y="410" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="21" font-weight="bold" fill="#2B2D33">머신러닝 분석</text>
+    <text x="186" y="435" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="14" fill="#5C6470">PCA·군집·분류 모델 4종 비교 — 결정 트리 정확도 80.18%</text>
+    <use data-icon="phosphor-duotone/brain" x="1130" y="395" width="36" height="36" fill="#457B9D"/>
+  </g>
+
+  <g id="item-04">
+    <circle cx="130" cy="515" r="24" fill="#FFFFFF" stroke="#E63946" stroke-width="3"/>
+    <text x="130" y="522" text-anchor="middle" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="15" font-weight="bold" fill="#E63946">04</text>
+    <text x="186" y="510" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="21" font-weight="bold" fill="#2B2D33">핵심 인사이트</text>
+    <text x="186" y="535" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="14" fill="#5C6470">가장 취약한 집단, 그리고 경제 발전의 역설</text>
+    <use data-icon="phosphor-duotone/lightbulb" x="1130" y="495" width="36" height="36" fill="#E63946"/>
+  </g>
+
+  <g id="item-05">
+    <circle cx="130" cy="615" r="24" fill="#FFFFFF" stroke="#2A9D8F" stroke-width="3"/>
+    <text x="130" y="622" text-anchor="middle" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="15" font-weight="bold" fill="#2A9D8F">05</text>
+    <text x="186" y="610" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="21" font-weight="bold" fill="#2B2D33">기대효과 · 활용방안 · 한계</text>
+    <text x="186" y="635" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="14" fill="#5C6470">분석을 어디에 쓸 수 있고, 어디까지 믿어야 하는가</text>
+    <use data-icon="phosphor-duotone/shield-check" x="1130" y="595" width="36" height="36" fill="#2A9D8F"/>
+  </g>
+
+  <g id="footer">
+    <text x="1200" y="700" text-anchor="end" font-family="&quot;Malgun Gothic&quot;, &quot;Apple SD Gothic Neo&quot;, Arial, sans-serif" font-size="11" fill="#9AA3AF">02</text>
+  </g>
+</svg>
